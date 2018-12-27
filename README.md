@@ -4,7 +4,7 @@ Just a simple tmux config setting.
 ```shell
 git clone https://github.com/res876ttb/Gold-Tmux.git
 cd Gold-Tmux
-cp .tmux.conf ~/
+cp .tmux.conf .tmux.conf.func ~/
 ```
 
 ## Screenshot
