@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function loadavg {
+  case $(uname -s) in
+    *Darwin*)
+      sysctl -q -n vm.loadavg | cut -d' ' -f2-4
+      ;;
+    *Linux*)
+      cat /proc/loadavg | cut -d' ' -f1-3
+      ;;
+    *OpenBSD*)
+      sysctl -q -n vm.loadavg | cut -d' ' -f1-3
+      ;;
+  esac
+}
