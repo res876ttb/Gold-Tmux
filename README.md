@@ -9,3 +9,14 @@ cp .tmux.conf .tmux.conf.func ~/
 
 ## Screenshot
 ![Gold-Tmux](https://imgur.com/ufp9Gfb.jpg)
+
+## Shortcut
+| Shortcut | Description |
+| --- | --- |
+| Meta + t | New tab |
+| Meta + left/right | Switch to left/right tab |
+| Meta + \\ | Create a horizontal pane |
+| Meta + -  | Create a vertical pane |
+| Meta + w  | Close current tab |
+| Meta + ,/.  | Adjust pane width |
+| Meta +  \</\> | Adjust pane height | 
