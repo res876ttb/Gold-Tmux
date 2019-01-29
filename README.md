@@ -1,10 +1,19 @@
 # Gold-Tmux
 Just a simple tmux config setting.
 
+
+## Installation
+
+Via curl:
+
 ```shell
-git clone https://github.com/res876ttb/Gold-Tmux.git
-cd Gold-Tmux
-cp .tmux.conf .tmux.conf.func ~/
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/res876ttb/Gold-Tmux/master/install.sh)"
+```
+
+Via wget:
+
+```shell
+sh -c "$(wget https://raw.githubusercontent.com/res876ttb/Gold-Tmux/master/install.sh -O -)"
 ```
 
 ## Screenshot
