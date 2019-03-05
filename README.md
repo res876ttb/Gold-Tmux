@@ -16,9 +16,9 @@ Via wget:
 sh -c "$(wget https://raw.githubusercontent.com/res876ttb/Gold-Tmux/master/install.sh -O -)"
 ```
 
-## Screenshot
-![Gold-Tmux](https://imgur.com/ufp9Gfb.jpg)
+**NOTE**: The provided one-line installation command will install Gold-Tmux to `~/.Gold-Tmux`. DO NOT remove this directory because the files `~/.tmux.conf` and `~/.tmux.conf.func` are just symbolic links.
 
+## Screenshot
 ![Gold-Tmux-wide](./screenshots/wide.png)
 
 ![Gold-Tmux-moderate](./screenshots/moderate.png)

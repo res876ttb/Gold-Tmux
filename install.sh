@@ -5,8 +5,8 @@ mv $HOME/.tmux.conf .tmux.conf.backup
 rm -f $HOME/.tmux.conf.func
 
 # clone from github
-git clone https://github.com/res876ttb/Gold-Tmux.git
-cd Gold-Tmux
+git clone https://github.com/res876ttb/Gold-Tmux.git ~/.Gold-Tmux
+cd ~/.Gold-Tmux
 
 # creaet symbolic link to $HOME
 ln -s $PWD/.tmux.conf* $HOME/
